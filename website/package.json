@@ -5,7 +5,7 @@
     "serve:with-pagefind": "hugo --baseURL=/ --theme=docsy && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run serve"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.21",
     "hugo-extended": "^0.127.0",
     "postcss": "^8.4.31",
     "postcss-cli": "^9.1.0"
